@@ -63,18 +63,28 @@ The script automatically skips IPs as outlined in RFC 1918 (Private IPs) and RFC
   {
     "ip_address": "8.8.8.8",
     "country_name": "United States",
-    "network_name": "GOOGLE",
+    "network_name": "GOOGLE, US",
     "link": "https://www.whois.com/whois/8.8.8.8",
-    "registration_date": "1992-12-01"
+    "registration_date": "2023-12-28T17:24:33-05:00"
   }
 ]
 ```
 
 ### CSV Output
-| IP Address | Country Name   | Network Name | Link                                      | Registration Date |
-|------------|----------------|--------------|-------------------------------------------|-------------------|
-| 8.8.8.8    | United States  | GOOGLE       | https://www.whois.com/whois/8.8.8.8       | 1992-12-01        |
+| IP Address | Country Name   | Network Name     | Link                                      | Registration Date               |
+|------------|----------------|------------------|-------------------------------------------|---------------------------------|
+| 8.8.8.8    | United States  | GOOGLE, US       | https://www.whois.com/whois/8.8.8.8       | 2023-12-28T17:24:33-05:00       |
 
+
+### TXT Output
+```
+IP Address: 8.8.8.8
+Country: United States
+Network Name: GOOGLE, US
+Link: https://www.whois.com/whois/8.8.8.8
+Registration Date: 2023-12-28T17:24:33-05:00
+===============================
+```
 ---
 
 ## License
