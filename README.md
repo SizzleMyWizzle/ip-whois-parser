@@ -41,16 +41,13 @@ pip install ipwhois pycountry tqdm
 | `--raw`            | Outputs raw WHOIS data without parsing.                                    |
 | `--debug`          | Enables debug mode for detailed logging, such as retry warnings.           |
 
-### Example
+### Examples
 ```bash
-python3 bulk_whois_lookup.py input.txt -o output.json -f json -v 
+python3 ip_whois_parser.py input.txt -o output.csv -f csv -v 
 ```
-
-This command will:
-1. Read IPs from `input.txt`.
-2. Perform WHOIS lookups for each valid IP.
-3. Save the results in `output.json` in JSON format with verbose details.
-4. Enable debug logs.
+```bash
+python3 ip_whois_parser.py input.txt -v  
+```
 
 ---
 
