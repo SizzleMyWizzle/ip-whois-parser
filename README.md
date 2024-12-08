@@ -51,7 +51,7 @@ python3 ip_whois_parser.py input.txt -v
 
 ---
 
-## Special-Use IP Filtering
+## IP Exclusions
 The script automatically skips IPs as outlined in RFC 1918 (Private IPs) and RFC 6890 (Special-Purpose IPs)
 
 ---
