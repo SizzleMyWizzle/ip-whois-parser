@@ -92,11 +92,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ---
 
-## Contributions
-Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request.
-
----
-
-## Support
-If you encounter issues or have questions, open an issue in the repository or contact the maintainer.
-
