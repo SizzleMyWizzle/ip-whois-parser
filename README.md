@@ -71,7 +71,7 @@ The script automatically skips IPs as outlined in RFC 1918 (Private IPs) and RFC
 ```
 
 ### CSV Output
-| IP Address | Country Name   | Network Name     | Link                                      | Registration Date               |
+| ip_address | country_name   | network_name     | link                                      | registration_date               |
 |------------|----------------|------------------|-------------------------------------------|---------------------------------|
 | 8.8.8.8    | United States  | GOOGLE, US       | https://www.whois.com/whois/8.8.8.8       | 2023-12-28T17:24:33-05:00       |
 
