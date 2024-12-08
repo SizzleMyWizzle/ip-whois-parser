@@ -1,7 +1,7 @@
 # IP Whois Lookup and Parser
 
 ## Description
-This Python script performs bulk WHOIS lookups for IP addresses, supporting multithreaded execution and caching of network blocks. It is designed for efficient querying of IP addresses with detailed outputs and several customization options.
+This Python script performs bulk WHOIS lookups for IP addresses from a .txt file, supporting multithreaded execution and optimized for speed while not requiring any database downloads. It is designed for efficient querying of IP addresses with detailed outputs and several customization options.
 
 ---
 
